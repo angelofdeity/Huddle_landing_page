@@ -1,0 +1,23 @@
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 15px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.topbar button{
+    background: white;
+    border: 1px solid #E5E5E5;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Poppins' , sans-serif;
+    width: 100px;
+    height: 25px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+}
+.img_logo{
+    width: 120px;
+}
+header{
+    background: url(../../images/bg-hero-mobile.svg) no-repeat center center / cover;
+    height: 400px;
+}
