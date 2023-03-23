@@ -4,8 +4,10 @@ ul {
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     width: 375px;
+    font-size: 18px;
     text-align: center;
 }
