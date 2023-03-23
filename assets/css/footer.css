@@ -8,10 +8,14 @@
 }
 footer {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 article.get_started {
     padding: 40px 12px;
     font-size: 12px;
+    width: 93%;
     position: absolute;
     z-index: 4;
     background-color: white;
