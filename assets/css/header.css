@@ -16,21 +16,20 @@
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
 }
 .img_logo{
-    width: 120px;
+    width: 100px;
 }
 header{
     background: url(../../images/bg-hero-mobile.svg) no-repeat center center / cover;
-    height: 800px;
-    width: 100%;
-    padding-bottom: 30px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    height: 700px;
+    background-color: hsl(192, 100%, 9%);
 }
 header section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    height: 50%;
+    height: 40%;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -38,18 +37,17 @@ header section h2{
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    width: 300px;
+    width: 80%;
     margin-bottom: 20px;
 }
 header section p{
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    width: 300px;
+    width: 80%;
     margin-bottom: 20px;
 }
 
 header section img {
-    width: 70%;
-    height: 70%;
+    width: 80%;
 }
