@@ -20,8 +20,8 @@
 }
 header{
     background: url(../../images/bg-hero-mobile.svg) no-repeat center center / cover;
+    color: hsl(192, 100%, 9%);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    height: 700px;
     background-color: hsl(193, 100%, 96%);
 }
 header section {
@@ -50,4 +50,8 @@ header section p{
 
 header section img {
     width: 80%;
+}
+
+header .mockups {
+    margin: 50px auto;
 }

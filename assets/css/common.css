@@ -58,5 +58,6 @@ article div {
     padding: 40px;
 }
 main {
+    color: hsl(192, 100%, 9%);
     padding: 20px 0px;
 }
