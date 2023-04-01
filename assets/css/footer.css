@@ -1,10 +1,18 @@
 .attribution {
     font-size: 11px;
+    margin-top: 40px;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5px;
+    font-weight: 400;
+    width: 300px;
+    color: #e53170;
+    border-top: 1px solid white;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: #e53170;
 }
 footer {
     position: relative;
@@ -29,7 +37,7 @@ article.get_started button {
     margin-top: 20px;
 }
 
-footer div {
+footer .top-footer {
     position: absolute;
     top: 90px;
     font-family: 'Open Sans', sans-serif;
@@ -66,13 +74,27 @@ footer .email {
     padding-left: 40px;
 }
 .copyright {
-    font-size: 14px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin-bottom: 12px;
 }
-/* .huddle_logo {
-
-    width: 100%;
-    height: 100%;
-    background: url(../../images/logo.svg) no-repeat center center / cover;
-} */
+.socials {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.socials i{
+    margin: 20px 8px;
+    border: 1px solid white;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 50%;
+}
+.huddle_logo {
+    /* background-color: white; */
+    padding-left: 20px;
+    height: 40px;
+    background: url(../../images/logo.svg) no-repeat left center;
+} 
