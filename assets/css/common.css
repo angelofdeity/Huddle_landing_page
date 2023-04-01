@@ -17,7 +17,7 @@ section button {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    width: 250px;
+    width: 220px;
     height: 40px;
     font-family: 'Poppins', sans-serif;
     color: white;
@@ -45,17 +45,17 @@ article {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
 article p{
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     margin-top: 12px;
-    color:rgba(0, 0, 0, 0.5)
+    color:hsl(208, 11%, 55%);
 }
 article div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 44px;
 }
 main {
     color: hsl(192, 100%, 9%);
