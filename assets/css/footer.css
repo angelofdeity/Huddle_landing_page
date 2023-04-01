@@ -92,9 +92,7 @@ footer .email {
     font-size: 14px;
     border-radius: 50%;
 }
-.huddle_logo {
-    /* background-color: white; */
-    padding-left: 20px;
-    height: 40px;
-    background: url(../../images/logo.svg) no-repeat left center;
+footer .huddle_logo .img_logo{
+    width: 160px;
+    filter: brightness(0) invert(1);
 } 
