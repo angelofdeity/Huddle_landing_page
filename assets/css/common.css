@@ -15,10 +15,10 @@ body{
 section button {
     background: hsl(322, 100%, 66%);
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     cursor: pointer;
-    width: 220px;
-    height: 40px;
+    width: calc(250px + 1.6vw);
+    height: calc(48px + 1.5vw);
     font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 12px;
@@ -45,7 +45,7 @@ article {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
 article p{
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     margin-top: 12px;
     color:hsl(208, 11%, 55%);
@@ -55,9 +55,26 @@ article div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 44px;
+    /* padding: 7%; */
 }
 main {
     color: hsl(192, 100%, 9%);
-    padding: 20px 0px;
+    padding: 5% 5%;
+}
+@media screen and (min-width: 768px) {
+    main article {
+        display: flex;
+        flex-direction: row;
+        padding: 3rem 3rem 3rem 6rem;
+        column-gap: 20%;
+        text-align: left;
+    }
+    main article h2 {
+        align-self: flex-start;
+    }
+
+    article.reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }

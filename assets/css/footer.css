@@ -23,17 +23,20 @@ footer {
 
 article.get_started {
     padding: 40px 12px;
-    font-size: 12px;
+    font-size: calc(12px + 0.5vw);
     position: absolute;
     left: 3%;
     margin: auto;
+    width: 80%;
+    max-width: 800px;
+    /* max-width: 60%; */
     right: 3%;
     z-index: 1;
     background-color: white;
 }
 
 article.get_started button {
-    font-size: 12px;
+    font-size: calc(12px + 0.5vw);
     margin-top: 20px;
 }
 
@@ -96,3 +99,9 @@ footer .huddle_logo .img_logo{
     width: 160px;
     filter: brightness(0) invert(1);
 } 
+
+/* @media screen and (min-width: 768px) {
+    article.get_started {
+        width: 60%;
+    }
+} */
