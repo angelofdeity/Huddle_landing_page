@@ -1,10 +1,11 @@
-.topbar{
+.topbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5% 5%;
 }
-.topbar button{
+
+.topbar button {
     background: white;
     border: 1px solid #E5E5E5;
     border-radius: 30px;
@@ -16,18 +17,22 @@
     font-family: 'Poppins', sans-serif;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
 }
+
 header .logo_block {
     text-align: left;
 }
-.img_logo{
+
+.img_logo {
     width: 50%;
 }
-header{
+
+header {
     background: url(../../images/bg-hero-mobile.svg) no-repeat center center / cover;
     color: hsl(192, 100%, 9%);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background-color: hsl(193, 100%, 96%);
 }
+
 header section {
     display: flex;
     text-align: center;
@@ -38,25 +43,24 @@ header section {
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
 }
+
 header .left {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
 }
-header section h2{
+
+header section h2 {
     font-family: 'Poppins', sans-serif;
     font-size: calc(25px + 1vw);
     font-weight: 800;
-    /* width: 80%; */
-    /* margin-bottom: 20px; */
 }
-header section p{
+
+header section p {
     font-family: 'Open Sans', sans-serif;
     font-size: calc(16px);
     font-weight: 400;
-    /* width: 80%; */
-    /* margin-bottom: 25px; */
 }
 
 header section img {
@@ -68,24 +72,24 @@ header section img {
         background: url(../../images/bg-hero-desktop.svg) no-repeat center center / cover;
         background-color: hsl(193, 100%, 96%);
     }
+
     header section {
         display: grid;
         text-align: left;
         column-gap: 20px;
-        grid-template-columns:1.5fr 2fr;
-        /* flex-direction: row; */
+        grid-template-columns: 1.5fr 2fr;
     }
+
     .img_logo {
         width: 80%;
     }
+
     header .left {
         align-items: flex-start;
     }
 
     header .mockups {
-        /* margin-left: 20px; */
         display: flex;
         justify-content: right;
     }
 }
-
