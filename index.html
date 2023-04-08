@@ -14,6 +14,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Huddle landing page</title>
   <!-- with alternating feature blocks -->
 </head>
@@ -22,7 +25,7 @@
   <header class="menu">
 
     <ul class="topbar">
-      <li>
+      <li class="logo_block">
         <img class="img_logo" src="./images/logo.svg" alt="huddle logo">
       </li>
       <li>
@@ -30,24 +33,25 @@
       </li>
     </ul>
     <section>
-      <h2>
-        Build The Community Your Fans Will Love
-      </h2>
-      <p>
-        Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
-        Create connections with your users as you engage in genuine discussion.
-      </p>
-      <button>Get Started For Free</button>
-    </section>
-    <section class="mockups">
-      <img src="./images/illustration-mockups.svg" alt="illustration grow together">
+      <div class="left">
+        <h2>
+          Build The Community Your Fans Will Love
+        </h2>
+        <p>
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion.
+        </p>
+        <button>Get Started For Free</button>
+      </div>
+      <div class="mockups right">
+        <img src="./images/illustration-mockups.svg" alt="illustration grow together">
+      </div>
     </section>
   </header>
 
-
   <main>
     <section>
-      <article>
+      <article class="grow">
         <img src="./images/illustration-grow-together.svg" alt="illustration grow together">
         <div>
           <h2>Grow Together</h2>
@@ -59,7 +63,7 @@
       </article>
     </section>
     <section>
-      <article>
+      <article class="flow">
         <img src="./images/illustration-flowing-conversation.svg" alt="illustration grow together">
         <div>
           <h2>Flowing Conversations</h2>
@@ -71,7 +75,7 @@
       </article>
     </section>
     <section>
-      <article>
+      <article class="users reverse">
         <img src="./images/illustration-your-users.svg" alt="illustration grow together">
         <div>
           <h2>Your Users</h2>
@@ -84,17 +88,13 @@
     </section>
   </main>
 
-
-
-
-
   <footer>
     <section>
       <article class="get_started">
         <h2>Ready To Build Your Community?</h2>
         <button>Get Started For Free</button>
       </article>
-      <div>
+      <div class="top-footer">
         <ul>
           <li class="huddle_logo">
             <img class="img_logo" src="./images/logo.svg" alt="huddle logo">
@@ -110,19 +110,27 @@
             example@huddle.com
           </li>
         </ul>
-        <ul>
+        <ul class="company info">
           <li>About Us</li>
           <li>What We Do</li>
           <li>FAQ</li>
+        </ul>
+        <ul class="company contact">
           <li>Career</li>
           <li>Blog</li>
           <li>Contact Us</li>
         </ul>
+        <div class="socials">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
         <p class="copyright">
           &copy; Copyright 2018 Huddle. All rights reserved.
         </p>
         <p class="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+            Mentor</a>.<br>
           Coded by <a href="#">Nico</a>.
         </p>
       </div>
